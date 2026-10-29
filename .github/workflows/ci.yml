@@ -1,0 +1,34 @@
+name: ACE-10 CI & Zero-Stub Audit
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  verify:
+    name: Build, Typecheck & Section V Linter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ACE-10 Section V Zero-Stub Linter
+        run: npm run lint
+
+      - name: Verify CLI Preset Compiler (All 8 Presets)
+        run: |
+          node bin/ace10.mjs --list
+          node bin/ace10.mjs --preset ace-10-flagship --out GEMINI.ci.md
+
+      - name: TypeScript Strict Check & Vite Production Build
+        run: npm run build

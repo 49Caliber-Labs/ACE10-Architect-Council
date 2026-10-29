@@ -1,0 +1,37 @@
+{
+  "name": "ace-10-architect-council",
+  "private": false,
+  "version": "1.0.0",
+  "description": "ACE-10 (Architect Council Engine) — Open-Source Cognitive System Instruction Compiler, Preset Studio & 4-Gate Chemistry Evaluator for AI Agents",
+  "author": "49Caliber Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/49Caliber-Labs/ACE10-Architect-Council.git"
+  },
+  "type": "module",
+  "bin": {
+    "ace-10": "./bin/ace10.mjs"
+  },
+  "scripts": {
+    "dev": "vite --port=3200 --host=0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port=3200",
+    "cli": "node bin/ace10.mjs",
+    "lint": "node bin/ace10.mjs --audit src/App.tsx && node bin/ace10.mjs --audit src/utils/councilCompiler.ts && node bin/ace10.mjs --audit src/utils/complianceAuditor.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
