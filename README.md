@@ -77,10 +77,14 @@ curl -fsSL https://raw.githubusercontent.com/49Caliber-Labs/ACE10-Architect-Coun
 
 ---
 
-## Related Projects by 49Caliber Labs
+## Related Projects & Live Ecosystem (49Caliber Labs)
 
+- **[49Caliber Labs Main Portal](https://49caliber.com/):** Official engineering showcase, live telemetry demonstrations, and grant/research documentation.
 - **[MeshMule-Core](https://github.com/49Caliber-Labs/MeshMule-core) (Free & Open-Source • MIT License):** 23 TypeScript modules for compact 24–38 byte sub-GHz (915/868 MHz) LoRa binary telemetry framing, distributed barometric phased-array ($\nabla P$) front tracking, and RF moisture tomography.
-- **[BiteWindow Vector7](https://49caliber.com#releases) ($9.99 Lifetime License • Free Updates Forever):** Commercial offline-first coastal, tidal, 7-vector hydro-meteo bite intelligence, and 915 MHz LoRa backcountry field communicator for Android and Web.
+- **[BiteWindow Vector7](https://49caliber.com#releases) ($9.99 Lifetime License • Free Updates Forever):** Commercial offline-first coastal, tidal, 7-vector hydro-meteo bite intelligence, and 915 MHz LoRa backcountry field communicator for Android and Web ([Direct App](https://49caliber.com/bitewindow/)).
+- **[The Hydro Protocol & Telemetry Guides](https://49caliber.com/hydro-telemetry.html):** Estuary tidal resonance, direct USGS gage assimilation (`#11455820`), and multi-basin hydrological modeling.
+- **[Custom Antenna Design & RX-Only Broadband RF](https://49caliber.com/rf-broadband.html):** VNA-matched 915 MHz antennas and zero-transmit broadband front-ends (`10 MHz – 1.2 GHz`).
+- **[Orion General Contracting, Inc.](https://49caliber-labs.github.io/orion-general-contracting/) ([Partner Overview](https://49caliber.com/orion-partner.html)):** Sister field-engineering and RF infrastructure integration organization.
 
 ---
 
